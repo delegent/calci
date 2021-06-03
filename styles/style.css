@@ -1,0 +1,58 @@
+body{
+	background-color: rgb(240, 233, 233);
+}
+
+.container{
+	width: 250px;
+	height: 440px;
+	margin: 80px auto;
+	border-radius: 8px;
+	background: rgb(240, 233, 233);
+	box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+}
+.calc-box{
+	width: 200px;
+	margin:20px auto;
+}
+#display{
+	border:none;
+	outline:none;
+	color:black;
+	text-align: right;
+	font-weight: 600;
+	padding: 12px;
+	margin:40px 0px 30px 0;
+	background:transparent;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+}
+.button{
+  margin:15px 0 0 5px;
+  width:42px;
+  height:42px;
+  border: none;
+  outline: none;
+  font-size:18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius:6px;
+  background:rgb(240, 233, 233);
+  box-shadow:5px 5px 10px #b6acac, -5px -5px 10px #fcf9f9 ;
+  display: inline-block;
+}
+.button:active{
+	box-shadow:inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+}
+.clearButton{
+	background:rgb(241, 119, 19);
+	color: white;
+}
+.mathbutton{
+	background:rgb(99, 95, 95);
+	color: white;
+}
+#footer{
+	text-align:center;
+	color: #a8a4a4;
+	font-size:1rem ;
+	font-family: arial Arial, Helvetica, sans-serif;
+}
